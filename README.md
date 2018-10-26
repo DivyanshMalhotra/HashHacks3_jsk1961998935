@@ -35,7 +35,11 @@ The main motive of our system is to provide a safer environment for women and im
 # Screenshots of the Police Station GUI
 <br>
 
-<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Cameracapture.jpeg" align="left" height="400" width="300" >
-<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Spectogram.jpeg" align="right" height="400" width="300" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Cameracapture.jpeg" align="left" height="400" width="400" >
+<br>
+
+# Screenshots of the Audio Variations in Audio Alerts
+<br>
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Spectogram.jpeg" height="400" width="400" >
 <br>
 ### This system will certainly help in increasing the safety and security of people as well as improvement in response time. 

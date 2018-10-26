@@ -1,9 +1,9 @@
 import pyrebase
 config = {
   "apiKey": "apiKey",
-  "authDomain": "bageera2018.firebaseapp.com",
-  "databaseURL": "https://bageera2018.firebaseio.com",
-  "storageBucket": "bageera2018.appspot.com",
+  "authDomain": ,
+  "databaseURL": ,
+  "storageBucket":,
   #"serviceAccount": "path/to/serviceAccountCredentials.json"
 }
 

@@ -27,8 +27,8 @@ The main motive of our system is to provide a safer environment for women and im
 # Screenshots of the android application
 <br>
 
-<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-07-544_com.jskgmail.lifesaver.png" align="left" height="700" width="250" >
-<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-12-011_com.jskgmail.lifesaver.png" height="700" width="250" >
-<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-39-281_com.jskgmail.lifesaver.png" height="700" width="250" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-07-544_com.jskgmail.lifesaver.png" align="left" height="400" width="250" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-12-011_com.jskgmail.lifesaver.png" align="left" height="400" width="250" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-39-281_com.jskgmail.lifesaver.png" height="400" width="250" >
 
-This system will certainly help in increasing the safety and security of people as well as improvement in response time. 
+### This system will certainly help in increasing the safety and security of people as well as improvement in response time. 

@@ -22,7 +22,7 @@ public class MainintroActivity extends AppIntro {
         SharedPreferences prefs = getSharedPreferences("app",MODE_PRIVATE);
         String firsttime = prefs.getString("intro", "1");
         if (firsttime.equals("2")) {
-            Intent i = new Intent(MainintroActivity.this, EmailPasswordActivity.class);
+            Intent i = new Intent(MainintroActivity.this, Main22Activity.class);
             startActivity(i);
         }
         else
@@ -66,7 +66,7 @@ setGoBackLock(false);
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
         // Do something when users tap on Skip button.
-        Intent i=new Intent(MainintroActivity.this,EmailPasswordActivity.class);
+        Intent i=new Intent(MainintroActivity.this,Main22Activity.class);
         startActivity(i);
     }
 
@@ -74,7 +74,7 @@ setGoBackLock(false);
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
 
-        Intent i=new Intent(MainintroActivity.this,EmailPasswordActivity.class);
+        Intent i=new Intent(MainintroActivity.this,Main22Activity.class);
         startActivity(i);
         SharedPreferences.Editor editor= getSharedPreferences("app",MODE_PRIVATE).edit();
         editor.putString("intro","2");

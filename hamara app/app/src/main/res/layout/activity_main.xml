@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAFELINE"
+        android:textColor="#FF51D9A0"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="135dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular"
+        android:text="Emergency"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <!--<TextView-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:background="@android:color/holo_red_dark"-->
+        <!--android:text="Emergency Nearby!" />-->
+
+</RelativeLayout>

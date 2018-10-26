@@ -59,9 +59,9 @@ import pyrebase
 outpath=r"C:\Users\harsh\Desktop\cctv.jpeg"
 config = {
     "apiKey": "apiKey",
-    "authDomain": "bageera2018.firebaseapp.com",
-    "databaseURL": "https://bageera2018.firebaseio.com",
-    "storageBucket": "bageera2018.appspot.com",
+    "authDomain": ".firebaseapp.com",
+    "databaseURL": "https://.firebaseio.com",
+    "storageBucket": ".appspot.com",
     #"serviceAccount": "path/to/serviceAccountCredentials.json"
 }
 

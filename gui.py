@@ -24,6 +24,8 @@ master = Tk()
 
 def callback():
     print("click!")
+def quitf():
+    master.destroy()
 
 width = 500
 height = 300
@@ -33,6 +35,8 @@ img = Image.open("downloaded.jpg")
 img = img.resize((width,height), Image.ANTIALIAS)
 photoImg =  ImageTk.PhotoImage(img)
 canvas.create_image(50,50 , anchor=NW, image=photoImg)
-b = Button(master,text='Click', command=callback, width=50)
+b = Button(master,text='Report it to people nearby', command=callback, width=50)
 b.pack()
+c = Button(master,text='No, it is not an issue', command=quitf, width=50)
+c.pack()
 mainloop()

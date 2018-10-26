@@ -12,10 +12,8 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
-RECORD_SECONDS = 8
+RECORD_SECONDS = 3
 WAVE_OUTPUT_FILENAME = "output.wav"
-
-
 
 def aaa():
     p = pyaudio.PyAudio()
@@ -47,11 +45,7 @@ def aaa():
     wf.writeframes(b''.join(frames))
     wf.close()
 
-
-
-
-
-    y , sr =librosa.load('output.wav',sr=32050)
+    y , sr =librosa.load(r'C:\Users\PIYUSH\Desktop\output.wav',sr=32050)
 #import librosa
     s = np.abs(librosa.stft(y))
     pitches, magnitudes = librosa.piptrack(y=y, sr=sr)
@@ -62,7 +56,7 @@ def aaa():
 
 import pyrebase
 
-outpath=r"C:\Users\JASPREET SINGH\Desktop\harshil.jpeg"
+outpath=r"C:\Users\harsh\Desktop\cctv.jpeg"
 config = {
     "apiKey": "apiKey",
     "authDomain": "bageera2018.firebaseapp.com",
@@ -72,30 +66,42 @@ config = {
 }
 
 
-
+firebase = pyrebase.initialize_app(config)
+storage = firebase.storage()
+db = firebase.database()
    
 def upload(outpath):
     mydate=(datetime.datetime.now())
     myaslidate=str(mydate.strftime('%b %d %Y'))+" "+str(mydate.hour)+" "+str(mydate.minute)+" "+str(mydate.second)+"-18.5513821,73.8230777.jpeg"
     storage.child(myaslidate).put(outpath)
-    db.child("users").update({str(mydate.microsecond):myaslidate})
-
+    db.child("users").child("1").push(myaslidate)  #mydate.microsecond
+    
+result1=aaa()
+print(result1)
+    
+cap = cv2.VideoCapture(1)
 
 
 def karnapadega():
     while(True):
         ret,frame=cap.read()
-        cv2.imshow("frame",frame)
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        if result1>0.1:
-            #gray = cv2.cvtColor(frame)
-            cv2.imwrite(outpath,frame)
-            cv2.waitKey(1)        
-            cap.release()
+        if ret== True:
+            cv2.imshow("frame",frame)
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            if result1>0.01:
+                #gray = cv2.cvtColor(frame)
+                cv2.imwrite(outpath,gray)
+                cv2.waitKey(1)        
+                cap.release()
+                cv2.destroyAllWindows()
+            #return cv2.imread('harshil.jpg',0)
+                upload(outpath)
 
-
-    
-
+                break
+                         
+            else:
+                cv2.destroyAllWindows()
+                break
 
 while(True):
     time.sleep(5)

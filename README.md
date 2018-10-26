@@ -30,5 +30,12 @@ The main motive of our system is to provide a safer environment for women and im
 <img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-07-544_com.jskgmail.lifesaver.png" align="left" height="400" width="250" >
 <img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-12-011_com.jskgmail.lifesaver.png" align="left" height="400" width="250" >
 <img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-39-281_com.jskgmail.lifesaver.png" height="400" width="250" >
+<br>
 
+# Screenshots of the Police Station GUI
+<br>
+
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Cameracapture.jpeg" align="left" height="400" width="300" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Spectogram.jpeg" align="right" height="400" width="300" >
+<br>
 ### This system will certainly help in increasing the safety and security of people as well as improvement in response time. 

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.example.android.safeline"
+        applicationId "com.jskgmail.lifesaver"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 8
@@ -50,7 +50,6 @@ dependencies {
     compile 'com.getkeepsafe.taptargetview:taptargetview:1.10.0'
     compile 'com.squareup.picasso:picasso:2.3.2'
     compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.daimajia.slider:library:1.1.5@aar'
     compile 'com.linsea:universalvideoview:1.1.0@aar'
     compile 'com.nightonke:boommenu:2.1.1'
     compile 'org.altbeacon:android-beacon-library:2+'

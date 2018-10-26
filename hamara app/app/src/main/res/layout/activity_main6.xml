@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jskgmail.lifesaver.Main4Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/youtube_player_view"
+            android:layout_marginTop="12dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginTop="17dp"
+                android:padding="5dp"
+                android:text="1. Focus on driving\n
+Keep 100% of your attention on driving at all times – no multi-tasking.
+Don’t use your phone or any other electronic device while driving.
+Slow down. Speeding gives you less time to react and increases the severity of an accident.\n\n
+2. Drive “defensively”\n
+Be aware of what other drivers around you are doing, and expect the unexpected.
+Assume other motorists will do something crazy, and always be prepared to avoid it.
+Keep a 2-second cushion between you and the car in front of you.
+Make that 4 seconds if the weather is bad.\n\n
+3. Plan ahead\n
+Build time into your trip schedule to stop for food, rest breaks, phone calls or other business.
+Adjust your seat, mirrors and climate controls before putting the car in gear.
+Pull over to eat or drink. It takes only a few minutes.\n\n
+4. Practice safety\n
+Secure cargo that may move around while the vehicle is in motion.
+Don’t attempt to retrieve items that fall to the floor.
+Have items needed within easy reach – such as toll fees, toll cards and garage passes.
+Always wear your seat belt and drive sober and drug-free."
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

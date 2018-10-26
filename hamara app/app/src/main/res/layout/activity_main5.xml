@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jskgmail.lifesaver.Main4Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/youtube_player_view"
+            android:layout_marginTop="12dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp"
+                android:padding="5dp"
+                android:text="Plant and equipment which is not properly maintained can cause fires.\n
+
+    Ensure all work equipment protects against catching fire or overheating\n
+    Ensure proper housekeeping, such as preventing ventilation points on machinery becoming clogged with dust or other materials - causing overheating
+    \nHave electrical equipment serviced regularly by a competent person to prevent sparks and fires
+    \nProperly clean and maintain heat producing equipment such as burners, heat exchangers, boilers (inspected and tested yearly), ovens, stoves, and fryers. Require storage of flammables away from this equipment.
+    \nUse a planned maintenance programme to properly maintain plant and equipment. Review your programme if you already have one."
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

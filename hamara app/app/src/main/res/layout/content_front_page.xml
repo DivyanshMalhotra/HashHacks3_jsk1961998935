@@ -35,7 +35,6 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <ProgressBar
-        android:id="@+id/progressBar2"
         style="?android:attr/progressBarStyle"
         android:layout_width="85dp"
         android:layout_height="wrap_content"

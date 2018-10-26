@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/listname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:elevation="15dp"
+        android:foregroundGravity="bottom"
+        android:text="Nothing to show"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/listname"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@color/book_loading_page" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignStart="@+id/text"
+        android:layout_below="@+id/text"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="110dp"
+        android:elevation="15dp"
+        android:foregroundGravity="bottom"
+        app:floating_background_color="@color/cardview_light_background"
+        app:floating_left_icon="@drawable/ic_contact_phone_black_24dp"
+        app:floating_title="ADD CONTACTS"
+        app:floating_title_color="@android:color/holo_red_dark" />
+
+
+</RelativeLayout>

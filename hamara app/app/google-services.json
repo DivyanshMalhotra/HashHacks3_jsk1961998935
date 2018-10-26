@@ -8,50 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:70164001135:android:b7c8c8ff386b8178",
-        "android_client_info": {
-          "package_name": "com.example.android.safeline"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "70164001135-hv699ro9ap3qvh5udi0s8ttbr0ldr24q.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.android.safeline",
-            "certificate_hash": "4dd6f8c676ed528cf639a2785aec3fefd2c7c09f"
-          }
-        },
-        {
-          "client_id": "70164001135-tban8ti9spgboahdv35ppv6j3m30gp88.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAT4UUWIA9HW2CFMgr5T4MuMz5OTbvUC18"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "70164001135-tban8ti9spgboahdv35ppv6j3m30gp88.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:70164001135:android:e0b0fa911ce40030",
         "android_client_info": {
           "package_name": "com.jskgmail.lifesaver"

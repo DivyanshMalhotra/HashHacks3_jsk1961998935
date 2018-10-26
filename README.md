@@ -1,4 +1,6 @@
 # HashHacks3_jsk1961998935
+# Introduction
+<br>
 Our solution for Hash Hack
 
 The main motive of our system is to provide a safer environment for women and improve response time to citizens in case of emergencies by making citizens take up vigilante roles. Also, our system helps the organisations to be supervised to see if timely actions are being taken or not, all this through an inter-linked web involving an audio-interrupt based module, blockchain, audio processing, IoT and an android application to make it all accessible.
@@ -13,3 +15,8 @@ The safety mode in the proposed app will get automatically enabled during night 
 Not only the police, but the people near to the location of the ongoing incident get notifications of it and using the bluetooth beacons, can accurately locate the victim and help them, making the response time much faster and helping find victims faster.
 
 This system will certainly help in increasing the safety and security of people as well as improvement in response time. 
+
+<br>
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-07-544_com.jskgmail.lifesaver.png" align="left" height="700" width="250" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-12-011_com.jskgmail.lifesaver.png" height="700" width="250" >
+<img src="https://github.com/DivyanshMalhotra/HashHacks3_jsk1961998935/blob/master/Screenshots/Screenshot_2018-10-27-01-43-39-281_com.jskgmail.lifesaver.png" height="700" width="250" >

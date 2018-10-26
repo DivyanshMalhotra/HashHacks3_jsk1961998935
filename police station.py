@@ -37,7 +37,14 @@ def stream_handler(message):
         #print(users.val())
         users=message["data"]
         print(users)
-        dlink=str(users)
+        if type(users)is list:
+            dlink=str(users[1])
+        elif str(users) is 'None':
+            return
+        elif type(users) is dict:
+            dlink=str(list(users.values())[0])
+        else:
+            dlink=str(users)
         print(dlink)
         storage.child(dlink).download("downloaded.jpeg")
         #print(img)
@@ -116,3 +123,5 @@ my_stream = db.child("users").stream(stream_handler)
 #dlink=users.val()
 #print(dlink[1])
 #storage.child(dlink[1]).download("downloaded.jpg")
+
+

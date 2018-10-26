@@ -17,6 +17,18 @@ config2 = {
   "storageBucket": ,
   #"serviceAccount": "path/to/serviceAccountCredentials.json"
 }
+from tkinter import *
+import tkinter
+import tkinter.messagebox
+from PIL import Image
+from PIL import ImageTk
+
+
+
+
+width = 500
+height = 300
+
 def stream_handler(message):
     global i
     if i != 1:
@@ -32,18 +44,48 @@ def stream_handler(message):
         #mat = cv2.imread('downloaded.jpeg',0)
         #print(mat)
         #cv2.imshow('downloaded.jpeg',mat)
-        a=cv2.imread('downloaded.jpeg')
+        master = Tk()
+        winsound.PlaySound('siren.wav', winsound.SND_FILENAME)
+        def callback():
+            #print("click!")
+            name2,gps = dlink.split('-')
+            #name1,name=name2.split('\'')
+            #gps2,jpg=gps.split('.')
+            gps2=gps[:-5]
+            print(name2)
+            print(gps2)
+            val={'Description':"Women in emergency",'GPS':gps2,'Prob':'Emergency'}
+            print(val)
+            update.child("PROBLEMS").child(name2).set(val)
+            update.update({'notify': '1'})
+            master.destroy()
+        def quitf():
+            master.destroy()
+        canvas = Canvas(master, width = 500, height = 500)  
+        canvas.pack() 
+        img = Image.open("downloaded.jpeg")
+        img = img.resize((width,height), Image.ANTIALIAS)
+        photoImg =  ImageTk.PhotoImage(img)
+        canvas.create_image(50,50 , anchor=NW, image=photoImg)
+        b = Button(master,text='Report it to people nearby', command=callback, width=50)
+        b.pack()
+        c = Button(master,text='No, it is not an issue', command=quitf, width=50)
+        c.pack()
+        mainloop()
+
+        #a=cv2.imread('downloaded.jpeg')
         #print(a)
         #sound = pyttsx.init()
         #sound.say('Emergency')
         #sound.runAndWait()
         
-        cv2.imshow('check',a)
-        winsound.PlaySound('siren.wav', winsound.SND_FILENAME)
-        cv2.waitKey(0)
-        print('Should the people be notified about the incident?')
-        ups=input()
-        print(ups)
+        #cv2.imshow('check',a)
+        
+        #cv2.waitKey(0)
+        #print('Should the people be notified about the incident?')
+        #ups=input()
+        #print(ups)
+        '''
         if ups == 'y':
             name2,gps = dlink.split('-')
             #name1,name=name2.split('\'')
@@ -55,6 +97,7 @@ def stream_handler(message):
             print(val)
             update.child("PROBLEMS").child(name2).set(val)
             update.update({'notify': '1'})
+        '''
     else:
         i=2
 
@@ -73,4 +116,3 @@ my_stream = db.child("users").stream(stream_handler)
 #dlink=users.val()
 #print(dlink[1])
 #storage.child(dlink[1]).download("downloaded.jpg")
-

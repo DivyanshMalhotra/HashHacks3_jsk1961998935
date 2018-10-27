@@ -1,6 +1,9 @@
 import pyrebase
 #import cv2
 import winsound
+import requests
+
+
 i=1
 
 config = {
@@ -29,6 +32,7 @@ def stream_handler(message):
             dlink=str(users)
         print(dlink)
         storage.child(dlink).download("downloaded.jpeg")
+        resp = requests.get('https://todolist.example.com/tasks/')
         #print(img)
         #mat = cv2.imread('downloaded.jpeg',0)
         #print(mat)

@@ -8,9 +8,9 @@ i=1
 
 config = {
   "apiKey": "apiKey",
-  "authDomain": "",
-  "databaseURL": "",
-  "storageBucket": "",
+  "authDomain": "bageer2018.firebaseapp.com",
+  "databaseURL": "https://bageer2018.firebaseio.com",
+  "storageBucket": "bageer2018.appspot.com",
   #"serviceAccount": "path/to/serviceAccountCredentials.json"
 }
 

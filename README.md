@@ -10,7 +10,7 @@ The main motive of our system is to provide a safer environment for women and im
 1. An android app
 2. Python code for module
 3. Python code for Police interface
-4. Blockchain for supervision - to be done yet
+4. Blockchain for supervision
 
 ## What's the idea?
 + We have developed a smart and effective idea here. We would install a module that constitutes of  cameras and a microphone to be installed in some crime-prone areas. The idea will basically work at night as they are the most vulnerable time for a crime.The system will only work for human frequency, hence, making it resistant towards inhuman sources. Whenever this system will detect that somebody is yelling or shouting for help, the details such as location along with the camera feed will pop up in the nearest police station. The video feed is to check whether it's actually an emergency or not hence this would demolish the false cases too. 
